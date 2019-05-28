@@ -1,8 +1,0 @@
-dependencies:
-    pre:
-        # Install the latest stable PlatformIO
-        - sudo pip install -U platformio
-
-test:
-    override:
-        - platformio ci src/main.cpp --board=esp32doit-devkit-v1
