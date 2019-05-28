@@ -10,5 +10,5 @@ void loop() {
   digitalWrite(13, HIGH);
   vTaskDelay(1000 / portTICK_PERIOD_MS);
   digitalWrite(13, LOW);
-  vTaskDelay(1000 / portTICK_PERIOD_MS);
+  vTaskDelay(1000 / portTICK_PERIOD_MS)
 }
