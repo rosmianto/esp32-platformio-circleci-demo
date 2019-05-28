@@ -1,0 +1,6 @@
+{
+    "terminal.integrated.env.linux": {
+        "PATH": "/home/adjie/.platformio/penv/bin:/home/adjie/.platformio/penv:/home/adjie/work/xtensa-esp32-elf/bin:/home/adjie/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/go/bin",
+        "PLATFORMIO_CALLER": "vscode"
+    }
+}
