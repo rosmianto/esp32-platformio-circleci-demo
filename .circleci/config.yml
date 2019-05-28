@@ -1,8 +1,8 @@
-dependencies:
-    pre:
-        # Install the latest stable PlatformIO
-        - sudo pip install -U platformio
-
-test:
-    override:
-        - platformio ci src/main.cpp --board=esp32doit-devkit-v1
+version: 2
+ jobs:
+   build:
+     docker:
+       - image: suculent/platformio-docker-build
+     steps:
+       - checkout
+       - run: platformio ci src/main.cpp --board=esp32doit-devkit-v1
