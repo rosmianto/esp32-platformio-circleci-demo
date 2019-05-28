@@ -5,4 +5,4 @@ dependencies:
 
 test:
     override:
-        - platformio ci test
+        - platformio ci src/main.cpp --board=esp32doit-devkit-v1
